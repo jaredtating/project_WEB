@@ -7,10 +7,8 @@ setup = function() {
 		if (ham.attr('src') == "src/hamburger.svg")
 			ham.attr('src', "src/exit.svg")
 		else
-			ham.attr('src', 'src/hamburger.svg')
-			
+			ham.attr('src', 'src/hamburger.svg')	
 	})
-
 	$('a[href*="#"]').not('[href="#"]').not('[href="#0"]').click(function(event) {
 		if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
 			&& location.hostname == this.hostname) {

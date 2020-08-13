@@ -140,17 +140,16 @@ nav ul li a:hover {
 }
 
 .socials li {
-	margin: 0.5em 0.2em;
+	margin: 0.1em 0.2em;
 }
 
 .socials li a {
 	text-decoration: none;
-	color: white;
+	color: #555555;
 	font-style: italic;
 	font-size: 0.8em;
 	padding: 0.5em 0.5em;
-	background-color: #333333;
-	border-radius: 0.2em;
+	background-color: initial;
 }
 
 .about-container {
@@ -166,7 +165,7 @@ nav ul li a:hover {
 
 .about-top-triangle {
 	z-index: 0;
-	width: 100%; 
+	width: 100%;
 	height: 10em;
 	background: #1D1D1D;
 	transform: skewY(5deg);
@@ -176,7 +175,7 @@ nav ul li a:hover {
 
 .about-bottom-triangle {
 	z-index: 0;
-	width: 100%; 
+	width: 100%;
 	height: 10em;
 	background: #1D1D1D;
 	transform: skewY(-5deg);
@@ -258,7 +257,7 @@ nav ul li a:hover {
 
 .projects-top-triangle {
 	z-index: 0;
-	width: 100%; 
+	width: 100%;
 	height: 11em;
 	background: #ffffff;
 	transform: skewY(5deg);
@@ -375,16 +374,6 @@ footer {
 		margin: 0;
 	}
 
-	.socials li a {
-		text-decoration: none;
-		color: #555555;
-		font-style: italic;
-		font-size: 0.8em;
-		padding: 0.5em 0.5em;
-		background-color: initial;
-		border-radius: 0.2em;
-	}
-
 	.socials li a:hover {
 		color: #777777;
 	}
@@ -463,7 +452,7 @@ footer {
 		height: 100em;
 		margin-top: -45em;
 		background: white;
-		
+
 	}
 
 	.education-list {
@@ -521,7 +510,7 @@ footer {
 	.line {
 		height: 65em;
 		margin-top: -47.5em;
-		
+
 	}
 
 	.front h1 {
@@ -530,8 +519,3 @@ footer {
 }
 
 }
-
-
-
-
-
