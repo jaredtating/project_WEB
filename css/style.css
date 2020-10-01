@@ -218,7 +218,8 @@ nav ul li a:hover {
 
 .cal {
 	width: 6em;
-	height: 6em
+	height: 6em;
+	margin-top: 1.66em;
 }
 
 .ed-list {
@@ -319,6 +320,10 @@ footer {
 
 .copyright {
 	text-align: center;
+}
+
+.plane {
+	display: none;
 }
 
 @media only screen and (min-width: 775px) {
@@ -429,6 +434,7 @@ footer {
 	}
 
 	.bighead {
+		margin-top: 3em;
 		display: block;
 		width: 15em
 	}
@@ -443,6 +449,14 @@ footer {
 		margin-top: -17em;
 	}
 
+	.plane {
+		display: block;
+		margin-top: 31.2em;
+		left: 46.6%;
+		position: absolute;
+		height: 3em;
+		z-index: 9;
+	}
 
 	.line {
 		display: block;
@@ -450,7 +464,7 @@ footer {
 		left: 48%;
 		width: 0.5em;
 		height: 100em;
-		margin-top: -45em;
+		margin-top: -58.5em;
 		background: white;
 
 	}
@@ -508,14 +522,14 @@ footer {
 
 
 	.line {
-		height: 65em;
-		margin-top: -47.5em;
+		height: 80em;
+		margin-top: -55em;
 
 	}
 
 	.front h1 {
 	font-style: normal;
-	font-size: 5em;
+	font-size: 4.5em;
 }
 
 }
