@@ -298,6 +298,10 @@ nav ul li a:hover {
 	box-shadow: .1em .1em 1em #AAAAAA;
 }
 
+.projects li a:hover {
+	background: #767676;
+}
+
 .projects {
 	width: 80%
 	display: table;
