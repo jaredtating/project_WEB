@@ -33,15 +33,15 @@ ul {
 .hamburger {
 	display: block;
 	margin-top: 0em;
-	height: 2em;
+	height: 3em;
 }
 
 .jt {
-	height: 2em;
+	height: 3em;
 }
 
 .menubar {
-	height: 2em;
+	height: 3em;
 	padding: 1em 1em;
 	margin: 0 auto;
 	display: flex;
@@ -50,7 +50,7 @@ ul {
 }
 
 .routes {
-	margin: 2em auto;
+	margin: 3em auto;
 	justify-content: center;
 }
 
@@ -58,9 +58,12 @@ ul {
 	text-decoration: none;
 	color: white;
 	background-color: #00A598;
+	width: 5.5em;
 	padding: 0 1em;
-	line-height: 2em;
+	line-height: 2.5em;
 	border-radius: 0.2em;
+	text-align: center;
+	font-size: 1.25em;
 }
 
 .contact-me:hover {
@@ -84,6 +87,7 @@ nav ul {
 	background-color: #1D1D1D;
 	position: fixed;
 	display: flex;
+	margin-top: 2em;
 	left: 0;
 	right: 0;
 }
@@ -102,11 +106,12 @@ nav ul li a:hover {
 }
 
 .half-sun {
+	position: absolute;
+	width: 50%;
+	right: 25%;
+	margin-top: -7em;
+	z-index: 1;
 	display: block;
-	height: 25em;
-	margin: 0 auto;
-	margin-top: -7.5em;
-	color: #FCD116;
 	transform: rotate(90deg);
 }
 
@@ -116,20 +121,22 @@ nav ul li a:hover {
 }
 
 .front {
-	padding-top: 15em;
+	padding-top: 10em;
+	padding-bottom: 0em;
 	text-align: center;
 }
 
 .front h1 {
 	margin: 0.5em 0em;
 	font-style: normal;
-	font-size: 3em;
+	font-size: 5em;
+	line-height: 1.1em;
 }
 
 .front p {
 	font-style: italic;
 	font-size: 1em;
-	margin: 1em 0em;
+	margin: -2.5em 0 1em 0;
 }
 
 .socials {
@@ -140,6 +147,7 @@ nav ul li a:hover {
 }
 
 .socials li {
+	display: none;
 	margin: 0.1em 0.2em;
 }
 
@@ -156,7 +164,7 @@ nav ul li a:hover {
 	text-align: center;
 	width: 100%;
 	background: #333333;
-	padding: 7.5em 0;
+	padding: 15em 0 7.5em 0;
 }
 
 .about-container p {
@@ -166,11 +174,11 @@ nav ul li a:hover {
 .about-top-triangle {
 	z-index: 0;
 	width: 100%;
-	height: 10em;
+	height: 12.5em;
 	background: #1D1D1D;
-	transform: skewY(5deg);
+	transform: skewY(18deg);
 	position: relative;
-	top: 5em;
+	top: 7em;
 }
 
 .about-bottom-triangle {
@@ -326,6 +334,23 @@ footer {
 	display: none;
 }
 
+@media only screen and (min-width: 550px) {
+
+	.front h1 {
+		font-size: 4em;
+		line-height: 1.5em;
+	}
+
+	.half-sun {
+		width: 30%;
+		right: 35%;
+	}
+
+	.about-top-triangle {
+		transform: skewY(10deg);
+	}
+}
+
 @media only screen and (min-width: 775px) {
 
 	.hide-desktop {
@@ -338,6 +363,12 @@ footer {
 
 	.routes {
 		margin: 0em auto;
+	}
+
+	.contact-me{
+		font-size: 1em;
+		line-height: 2em;
+		height: 2em;
 	}
 
 	.front-container {
@@ -357,6 +388,7 @@ footer {
 		margin: 0.5em 0em;
 		font-style: normal;
 		font-size: 5em;
+		line-height: 0.5em;
 	}
 
 	.front p {
@@ -376,6 +408,7 @@ footer {
 	}
 
 	.socials li {
+		display: block;
 		margin: 0;
 	}
 
@@ -384,7 +417,10 @@ footer {
 	}
 
 	.half-sun {
+		position: relative;
+		right: 0;
 		display: block;
+		width: 20%;
 		height: 18em;
 		margin: 10em 0 0 0;
 		transform: rotate(0deg);
@@ -413,6 +449,10 @@ footer {
 		padding: 0;
 	}
 
+	.about-container {
+		padding: 12em 0 7.5em 0;
+	}
+
 	.about-list {
 		display: table;
 		margin: 0 auto;
@@ -422,7 +462,11 @@ footer {
 		margin: 0 2em;
 		display: table;
 		float: left;
+	}
 
+	.about-top-triangle {
+		height: 10em;
+		transform: skewY(5deg);
 	}
 
 	.about-container p, .about-container h1 {
@@ -464,7 +508,7 @@ footer {
 		left: 48%;
 		width: 0.5em;
 		height: 100em;
-		margin-top: -58.5em;
+		margin-top: -63em;
 		background: white;
 	}
 
@@ -522,7 +566,7 @@ footer {
 
 	.line {
 		height: 80em;
-		margin-top: -55em;
+		margin-top: -59.5em;
 
 	}
 
